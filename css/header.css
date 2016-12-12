@@ -1,0 +1,27 @@
+header {
+    max-width: auto;
+    height: 62px;
+    background-color: #4682B4;
+}
+
+.wrapper {
+    float: left;
+    display: inline-block;    
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;  
+    font-size: 20px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.wrapper a:hover {
+    color: #4682B4;
+    background-color: #F5F5F5;
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.5);
+}
