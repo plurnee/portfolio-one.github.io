@@ -32,9 +32,9 @@
             
             <h2>Coding is Fun</h2>
             
-            <p>I think that coding and designing is very challenging that's why just a few people knows how to code. People nowadays don't like challenges anymore.
+            <p>"Why is programming fun? What delights may its practitioner expect as his reward? First is the sheer joy of making things. As the child delights in his mud pie, so the adult enjoys building things, especially things of his own design. I think this delight must be an image of God's delight in making things, a delight shown in the distinctness and newness of each leaf and each snowflake."
             </p> 
-            <button class="btn" type="button">SEE MORE >></button>         
+            <button class="btn" type="button" onclick="seeOne()">SEE MORE >></button>         
         </div>
         <div class="container-three">
             <img src="http://cdn2.hubspot.net/hubfs/883/Coding.jpg" style="width:100%; height:250px;">
@@ -60,6 +60,21 @@
             </a> 
         </div>         
     </div>
+    
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript">
+        function seeOne()
+        {
+            var conf = confirm("You are about to go to another website, are you sure you want to continue and leave this page?");
+            if(conf == true)
+                {
+                    window.location = 'http://wiki.c2.com/?ProgrammingIsFun';
+                }
+        }
+    </script>
+    <!-- END JAVASCRIPT -->
+    
+    
     <footer>
         <div id="div-social"><br />Find me on social media.</div>
         <ul style="text-align:center;">
