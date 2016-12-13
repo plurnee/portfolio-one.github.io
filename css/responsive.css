@@ -46,15 +46,20 @@
     }
 }
 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
+    header {
+        max-width: auto;
+        height: 100px;
+        background-color: #4682B4;
+    }
+    
     .wrapper {
-        float: left;
+        float: none;
         display: inline-block;    
         text-decoration: none;
-        margin-top: 20px;
+        margin-top: 32px;
         margin-bottom: 10px;  
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .wrapper a {
@@ -62,7 +67,8 @@
         margin: 0;
         padding-left: 6px;
         padding-right: 6px;
-        padding-bottom: 25px;
+        padding-top: 32px;
+        padding-bottom: 40px;
         color: #fff;
     }
 
@@ -124,69 +130,20 @@
     }
 }
 
-@media screen and (max-width: 500px) {
-    .wrapper {
-        float: left;
-        display: inline-block;    
-        text-decoration: none;
-        margin-top: 20px;
-        margin-bottom: 10px;  
-        font-size: 15px;
+@media screen and (max-width: 400px) {
+    header {
+        max-width: auto;
+        height: 150px;
+        background-color: #4682B4;
     }
-
+    
     .wrapper a {
         text-decoration: none;
         margin: 0;
-        padding-left: 6px;
-        padding-right: 6px;
-        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 31px;
+        padding-bottom: 19px;
         color: #fff;
-    }
-
-    .wrapper a:hover {
-        color: #4682B4;
-        background-color: #F5F5F5;
-        box-shadow: 8px 8px 20px rgba(0,0,0,0.5);
-    } 
-    
-    /*========================================================*/
-    
-    div.container-one {
-        max-width: 90%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 12px;
-    }
-    
-    div.container-two {
-        max-width: 90%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 12px;
-    }
-    
-    div.container-three {
-        max-width: 90%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 12px;
-    }
-    
-    div.container-four {
-        max-width: 90%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 12px;
-    }
-    
-    .btn {
-        padding: 20px;
-        float: none;
-        margin-left: 15px;
-        margin-bottom: auto;
     }
 }
