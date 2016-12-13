@@ -100,7 +100,7 @@ p {
 .btn {
     width: 150px;
     height: 60px;
-    margin-left: 15px;
+    margin-left: auto;
     float: left;
     text-align: center;
     border: 0;
@@ -128,9 +128,9 @@ a{
     box-shadow: 3px 5px 25px rgba(0,0,0,0.6);
 }
 
-footer {
+.social-one {
     max-width: auto;
-    margin-top: 50px;
+    margin-top: 8%;
     height: 150px;
     background-color: #4682B4;
 }
@@ -149,7 +149,7 @@ footer {
     text-decoration: none;
 }
 
-#div-social {
+#social-header {
     color: #edf3f8;
     font-size: 20px;
     text-align: center;
