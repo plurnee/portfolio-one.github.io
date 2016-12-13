@@ -74,6 +74,83 @@
     
     /*========================================================*/
     
+    img {
+        width: 100%;
+        max-height: 150px;
+    }
+    
+    div.container-one {
+        max-width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+    
+    div.container-two {
+        max-width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+    
+    div.container-three {
+        max-width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+    
+    div.container-four {
+        max-width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+    
+    .btn {
+        height: 30px;
+        width: 100px;
+        margin-left: 15px;
+        font-size: 8px;
+    }
+    
+    .img-social {
+        width: 30px;
+        max-height: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        float: left;
+        display: inline-block;    
+        text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 10px;  
+        font-size: 15px;
+    }
+
+    .wrapper a {
+        text-decoration: none;
+        margin: 0;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 25px;
+        color: #fff;
+    }
+
+    .wrapper a:hover {
+        color: #4682B4;
+        background-color: #F5F5F5;
+        box-shadow: 8px 8px 20px rgba(0,0,0,0.5);
+    } 
+    
+    /*========================================================*/
+    
     div.container-one {
         max-width: 90%;
         float: none;
